@@ -22,7 +22,8 @@ function subline(){
 
         let style=
             '<style class="subline">'+
-            'header[role="banner"] { width: 80px; } '+
+            'header[role="banner"] { display: none; } '+
+            'main, main > div { align-items: center !important; } '+
             '[data-testid="sidebarColumn"] { display: none; }'+
             '</style>';
 
@@ -80,6 +81,6 @@ function open_link(link){
         else if(link_p.length==2){
             url='https://x.com'+ link + '&tsl=subline'; }
 
-        window.open( url, null, 'top=40, left=20, width=720, height=800'); }
+        window.open( url, null, 'top=20, left=0, width=640, height=800'); }
 
 } //open_link()
