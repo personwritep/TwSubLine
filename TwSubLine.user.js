@@ -23,7 +23,7 @@ function subline(){
         let style=
             '<style class="subline">'+
             'header[role="banner"] { display: none; } '+
-            'main, main > div { align-items: center !important; } '+
+            'main { margin-left: 15px !important; } '+
             '[data-testid="sidebarColumn"] { display: none; }'+
             '</style>';
 
